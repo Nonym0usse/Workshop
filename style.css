@@ -1,0 +1,211 @@
+
+/* font-family: 'Raleway', sans-serif; */
+/* Blanc : FFFEFC */
+/* Gris Clair: E2E3DF */
+/* Gris : 515B5E */
+/* Gris Foncé : 2E3233 */
+/* Vert Clair : CAF200 */
+/* Vert Turquoise : 3FD6B1 */
+/* Vert Turquoise Foncé : 5ABAAE*/
+/* Rouge : 515B5E */
+
+body, html{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+/* header */
+.header{
+  background-color: #000000;
+  height: 80px;
+  line-height: 80px;
+}
+
+.logo{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float: left;
+}
+
+.menu{
+  float: right;
+}
+
+.menu a{
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+
+.menu a:hover {
+  color: #2C3E50;
+}
+
+/* end header */
+/* banner */
+
+.banner{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-banner{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.inner-banner h1{
+  color: #FFFFFF;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+.inner-banner btn-custom{
+  background-color: #3498DB.
+  color: #FFFFFF;
+}
+
+.inner-banner btn-custom:hover{
+  background-color: #2C3E50;
+}
+
+/*about */
+
+#about{
+    text-align: center;
+}
+
+.separator{
+  height: 3px;
+  width: 5%;
+  border: none;
+  box-shadow: none;
+  background-color: #ff9900;
+}
+
+.about article {
+  margin-top: 1%;
+}
+.about h2{
+  text-align: center;
+}
+/* test */
+
+.test{
+  background-color: #eeeeeeee;
+}
+
+.test h2{
+  text-align: center;
+}
+/* for the presentation */
+.societe{
+  background-color: #DDD;
+    text-align: center;
+}
+
+.societe article {
+  margin-top: 5%;
+}
+.societe h2{
+  text-align: center;
+}
+
+.img-circle{
+    box-shadow: 1px 1px 12px #555;
+    width: 200px;
+  	height: 200px;
+  	border-radius: 150px;
+  	-webkit-border-radius: 150px;
+  	-moz-border-radius: 150px;
+  }
+
+/* for the history */
+
+.history{
+    background-color: #000;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* footer */
+.footer-bs {
+position: relative;
+display: inline-block;
+bottom: 0;
+width: 100%;
+background-color: #ff9900;
+padding: 60px 40px;
+color: rgba(255,255,255,1.00);
+margin-bottom: 20px;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-nav h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+@media (min-width: 768px) {
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
